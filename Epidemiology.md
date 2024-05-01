@@ -205,7 +205,7 @@ task view, which has a dedicated section on
   within-host viral dynamics, transportation, population structure), alone or
   taken together, to create complex but relatively intuitive epidemiological
   simulations.
-  
+
 #### Digital Epidemiology
 
 - `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
@@ -282,6 +282,9 @@ task view, which has a dedicated section on
   the latent counts of infections and the reproduction number for a given
   population over time, and to perform model comparison using information
   criteria.
+- `r github("dajmcdon/rtestim")`: Uses a Poisson likelihood with trend filtering
+  penalty to estimate the effective reproduction number (Rt) of an infectious
+  disease outbreak.
 
 ### Compartmental models
 
@@ -479,6 +482,18 @@ tables, etc).
   resistance (AMR) data analysis and to work with microbial and antimicrobial
   properties by using evidence-based methods and reliable reference data such
   as LPSN ([Parte *et al.* 2020](https://doi.org/10.1099/ijsem.0.004332)).
+- `r github("cmu-delphi/epiprocess")`: A collection of data structures and
+  methods for handling epidemiological data. Features include handling versioned
+  data (point-in-time snapshots), applying functions to a sliding time window,
+  support for data with multiple geographic locations, and more. The package is
+  designed to be used in conjunction with the `r github("cmu-delphi/epipredict")`
+  package.
+- `r github("cmu-delphi/epipredict")`: A framework for building epidata
+  pipelines involving transformation and forecasting, built on
+  `r github("cmu-delphi/epiprocess")`. It supports: a simple interface for
+  defining data pre-processing, forecasting, and post-processing steps, a
+  collection of data processing steps common to epidata, and a collection of
+  pre-packaged forecasting models commonly used by CMU Delphi's forecasting team.
 
 ## Data
 
@@ -500,6 +515,9 @@ COVID-19 section.
   publicly available parasite rate survey points, mosquito occurrence points and
   raster surfaces from the ['Malaria Atlas Project'](https://malariaatlas.org/)
   servers as well as utility functions for plotting the downloaded data.
+- `r pkg("epidatr")`: An R client for the [Delphi Epidata
+  API](https://cmu-delphi.github.io/delphi-epidata/), which provides access to a
+  wide range of epidemiological data, including COVID-19 data.
 
 ### COVID-19
 
@@ -620,3 +638,7 @@ COVID-19 section.
   to creating an ecosystem of R packages for outbreak analytics.
 
 - [The Epidemiologist R Handbook](https://epirhandbook.com/en/).
+
+- [Delphi Epidata API](https://cmu-delphi.github.io/delphi-epidata/), a
+  publicly-accessible API providing wide range of epidemiological data,
+  including COVID-19 data, provided by Carnegie Mellon's Delphi research group.
