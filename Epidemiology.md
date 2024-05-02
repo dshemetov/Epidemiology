@@ -488,12 +488,11 @@ tables, etc).
   support for data with multiple geographic locations, and more. The package is
   designed to be used in conjunction with the `r github("cmu-delphi/epipredict")`
   package.
-- `r github("cmu-delphi/epipredict")`: A framework for building epidata
-  pipelines involving transformation and forecasting, built on
-  `r github("cmu-delphi/epiprocess")`. It supports: a simple interface for
-  defining data pre-processing, forecasting, and post-processing steps, a
-  collection of data processing steps common to epidata, and a collection of
-  pre-packaged forecasting models commonly used by CMU Delphi's forecasting team.
+- `r github("cmu-delphi/epipredict")`: provides (i) a set of easy-to-use
+  statistical epidemiological forecasting models, and (ii) a framework for
+  creating custom forecasters from modular pre-processing, forecasting, and
+  post-processing steps. Leverages `r github("cmu-delphi/epiprocess")` and `r github("cmu-delphi/epiprocess")`
+  and `r pkg("tidymodels")`.
 
 ## Data
 
