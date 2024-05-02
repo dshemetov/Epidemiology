@@ -482,11 +482,12 @@ tables, etc).
   resistance (AMR) data analysis and to work with microbial and antimicrobial
   properties by using evidence-based methods and reliable reference data such
   as LPSN ([Parte *et al.* 2020](https://doi.org/10.1099/ijsem.0.004332)).
-- `r github("cmu-delphi/epiprocess")`: A collection of data structures and
-  methods for handling epidemiological data. Features include handling versioned
-  data (point-in-time snapshots), applying functions to a sliding time window,
-  support for data with multiple geographic locations, and more. The package is
-  designed to be used in conjunction with the `r github("cmu-delphi/epipredict")`
+- `r github("cmu-delphi/epiprocess")`: classes and functions for handling
+  epidemiological data. Its `epi_df` class holds epidemiological time series
+  data, and its `epi_archive` class holds the version history of such data. It
+  facilitates common exploratory data analyses, statistical modeling, and proper
+  retrospective evaluation of forecasting and other models based on the version
+  history of the input data. Designed to work well with the `r github("cmu-delphi/epipredict")`
   package.
 - `r github("cmu-delphi/epipredict")`: provides (i) a set of easy-to-use
   statistical epidemiological forecasting models, and (ii) a framework for
