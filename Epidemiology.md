@@ -517,7 +517,8 @@ COVID-19 section.
   servers as well as utility functions for plotting the downloaded data.
 - `r pkg("epidatr")`: An R client for the [Delphi Epidata
   API](https://cmu-delphi.github.io/delphi-epidata/), which provides access to a
-  wide range of epidemiological data, including COVID-19 data.
+  wide range of epidemiological data, including novel surveillance sources and
+  mirrors of official reports, as well as historical versions of these data.
 
 ### COVID-19
 
