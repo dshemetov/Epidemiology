@@ -284,7 +284,8 @@ task view, which has a dedicated section on
   criteria.
 - `r github("dajmcdon/rtestim")`: Uses a Poisson likelihood with trend filtering
   penalty to estimate the effective reproduction number (Rt) of an infectious
-  disease outbreak.
+  disease outbreak. See the accompanying paper by [McDonald et al.
+  (2023)](https://doi.org/10.1101/2021.06.29.21259694).
 
 ### Compartmental models
 
